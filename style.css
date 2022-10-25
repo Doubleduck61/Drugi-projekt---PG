@@ -1,0 +1,375 @@
+*{
+	box-sizing: border-box;
+	z-index:0;
+}
+#wrapper {
+	margin: auto;
+	margin-top:0px;
+	min-width:250px;
+	max-width: 1000px;
+	background-color:lightgreen;
+}
+
+header img {
+	width:100%;
+	height: 400px;
+}
+
+nav {
+	margin: -4px 0 2% 0;
+	width:100%;
+}
+
+nav a {
+	border:1px solid red;
+	margin:0.5% 0.2% 0 0.5%;
+	padding: 2%;
+	color:white;
+	text-align:center;
+	display: inline-block;
+	float: left;
+	text-decoration:none;
+	width:19.2%;
+	background-color:green;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+nav a.active {
+	color:black;
+	background-color:lightblue;
+}
+nav a:hover {
+	color:black;
+	background-color:white;
+}
+
+#introduction {
+	margin: 70px 0 0 0;
+	width:95%;
+	background-color:silver;
+}
+#introduction h2{
+	padding: 20px 0 0 0;
+	text-align:center;
+}
+#introduction p{
+	text-align: justify;
+	padding:2%;
+}
+#introduction:hover {
+	margin: 70px 0 0 0;
+	width:95%;
+}
+
+#introduction img{
+	width:25%;
+	float:left;
+	margin:2% 2% 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#introduction img:hover{
+	width:40%;
+	border: 1px solid yellow;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#pochodzenie {
+	margin-left:5%;
+	width:95%;
+	height: 360px;
+	background-color:silver;
+}
+#pochodzenie h2{
+	padding: 20px 0 0 0;
+	width: 50%;
+	text-align: center;
+}
+#pochodzenie p{
+	text-align: justify;
+	float:left; 
+	width: 50%; 
+	margin-left:2%;
+}
+iframe {
+	width:44%;
+	height:315px;
+	margin-top: -4%;
+	padding:0 2% 2% 2%;
+	float:right;
+}
+#aktualny {
+	width:95%;
+	background-color:silver;
+}
+#aktualny img{
+	border-radius:50% 50%;
+	width:25%;
+	float:left;
+	padding:2% 2% 0;
+}
+#aktualny h2{
+	padding: 20px 0 0 0;
+	width: 100%;
+	text-align:center;
+}
+#aktualny p{
+	idth: 100%;
+	text-align: justify;
+	padding:2%;
+}
+#marzenia {
+	margin-left:5%;
+	height: 400px;
+	width:95%;
+	background-color:silver;
+}
+
+#marzenia h2{
+	width:85%;
+	padding: 20px 0 0 0;
+	text-align:center;
+}
+
+#marzenia img{
+	padding: 0 2%;
+	float: right;
+	border-radius: 25% 50%;
+	width:25%;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#marzenia img:hover{
+	border-radius: 50% 25%;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#marzenia p{
+	text-align: justify;
+	padding:0 2%;
+}
+footer {
+	margin-top:2%;
+	background-color:green;
+	width:100%;
+	height:20px;
+}
+footer p{
+	text-align: center;
+	color: white;
+}
+@media (max-width:990px) {
+#pochodzenie {
+height: 430px;
+}
+#marzenia {
+height: 440px;
+}
+}
+@media (max-width:970px) {
+#pochodzenie {
+height: 440px;
+}
+#marzenia {
+height: 440px;
+}
+}
+@media (max-width:930px) {
+#pochodzenie {
+height: 450px;
+}
+#marzenia {
+height: 450px;
+}
+}
+@media (max-width:850px) {
+#pochodzenie {
+height: 460px;
+}
+#marzenia {
+height: 460px;
+}
+}
+@media (max-width:800px) {
+#pochodzenie {
+height: 470px;
+}
+#marzenia {
+height: 470px;
+}
+}
+@media (max-width:750px) {
+#pochodzenie {
+height: 500px;
+}
+#marzenia {
+height: 500px;
+}
+}
+@media (max-width:720px) {
+#pochodzenie {
+height: 550px;
+}
+#marzenia {
+height: 550px;
+}
+}
+@media (max-width:650px) {
+#pochodzenie {
+height: 600px;
+}
+#marzenia {
+height: 600px;
+}
+}
+@media (max-width:550px) {
+#pochodzenie {
+height: 660px;
+}
+#marzenia {
+height: 660px;
+}
+}
+/*---------------------------------------------------------------------------*/
+#gallery {
+	background-color:grey;
+	width:90%;
+	height:1500px;
+	margin: 9% auto;
+}
+.parametry{
+	text-align:center;
+	width:50%;
+	float:left;
+	height:500px;
+	position:relative;
+}
+#gallery img{
+	width:60%;
+	margin: 20% 0;
+}
+.wyglad {
+	margin:-30%;
+	color:white;
+}
+@media (min-width:500px) {
+#gallery {
+height: 850px;
+}
+.parametry{
+	text-align:center;
+	width:50%;
+	float:left;
+	height:270px;
+	position:relative;
+}
+#gallery img {
+	border:1px solid blue;
+	width:60%;
+	margin: 20% 0;
+}
+#gallery img:hover {
+	width:80%;
+	margin: 5% 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity:1;
+}
+}
+@media (min-width:600px) {
+#gallery {
+height: 950px;
+}
+.parametry{
+	text-align:center;
+	width:50%;
+	float:left;
+	height:300px;
+	position:relative;
+}
+#gallery img {
+	border:1px solid pink;
+	width:60%;
+	margin: 20% 0;
+}
+#gallery img:hover {
+	width:80%;
+	margin: 5% 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity:1;
+}
+}
+@media (min-width:700px) {
+#gallery {
+height: 1100px;
+}
+.parametry{
+	text-align:center;
+	width:50%;
+	float:left;
+	height:350px;
+	position:relative;
+}
+#gallery img {
+	border:1px solid orange;
+	width:60%;
+	margin: 20% 0;
+}
+#gallery img:hover {
+	width:80%;
+	margin: 5% 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity:1;
+}
+}
+@media (min-width:800px) {
+#gallery {
+height: 1320px;
+}
+.parametry{
+	text-align:center;
+	width:50%;
+	float:left;
+	height:440px;
+	position:relative;
+}
+#gallery img {
+	border:1px solid white;
+	width:60%;
+	margin: 20% 0;
+}
+#gallery img:hover {
+	width:80%;
+	margin: 5% 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity:1;
+}
+}
+@media (min-width:900px) {
+#gallery {
+height: 1520px;
+}
+.parametry{
+	text-align:center;
+	width:50%;
+	float:left;
+	height:500px;
+	position:relative;
+}
+#gallery img {
+	border:1px solid black;
+	width:60%;
+	margin: 20% 0;
+}
+#gallery img:hover {
+	width:80%;
+	margin: 5% 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity:1;
+}
+}
