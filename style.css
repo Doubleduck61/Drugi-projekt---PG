@@ -160,78 +160,97 @@ footer p{
 	color: white;
 }
 @media (max-width:990px) {
-#pochodzenie {
-height: 430px;
+	#pochodzenie {
+	height: 430px;
+	}
+	
+	#marzenia {
+	height: 440px;
+	}
 }
-#marzenia {
-height: 440px;
-}
-}
+
 @media (max-width:970px) {
-#pochodzenie {
-height: 440px;
+	#pochodzenie {
+	height: 440px;
+	}
+	
+	#marzenia {
+	height: 440px;
+	}
 }
-#marzenia {
-height: 440px;
-}
-}
+
 @media (max-width:930px) {
-#pochodzenie {
-height: 450px;
+	#pochodzenie {
+	height: 450px;
+	}
+	
+	#marzenia {
+	height: 450px;
+	}
 }
-#marzenia {
-height: 450px;
-}
-}
+
 @media (max-width:850px) {
-#pochodzenie {
-height: 460px;
+	#pochodzenie {
+	height: 460px;
+	}
+	
+	#marzenia {
+	height: 460px;
+	}
 }
-#marzenia {
-height: 460px;
-}
-}
+
 @media (max-width:800px) {
-#pochodzenie {
-height: 470px;
+	#pochodzenie {
+	height: 470px;
+	}
+	
+	#marzenia {
+	height: 470px;
+	}
 }
-#marzenia {
-height: 470px;
-}
-}
+
 @media (max-width:750px) {
-#pochodzenie {
-height: 500px;
+	#pochodzenie {
+	height: 500px;
+	}
+	
+	#marzenia {
+	height: 500px;
+	}
 }
-#marzenia {
-height: 500px;
-}
-}
+
 @media (max-width:720px) {
-#pochodzenie {
-height: 550px;
+	#pochodzenie {
+	height: 550px;
+	}
+	
+	#marzenia {
+	height: 550px;
+	}
 }
-#marzenia {
-height: 550px;
-}
-}
+
 @media (max-width:650px) {
-#pochodzenie {
-height: 600px;
+	#pochodzenie {
+	height: 600px;
+	}
+	
+	#marzenia {
+	height: 600px;
+	}
 }
-#marzenia {
-height: 600px;
-}
-}
+
 @media (max-width:550px) {
-#pochodzenie {
-height: 660px;
+	#pochodzenie {
+	height: 660px;
+	}
+	
+	#marzenia {
+	height: 660px;
+	}
 }
-#marzenia {
-height: 660px;
-}
-}
+
 /*---------------------------------------------------------------------------*/
+
 #gallery {
 	background-color:grey;
 	width:90%;
@@ -253,10 +272,11 @@ height: 660px;
 	margin:-30%;
 	color:white;
 }
+
 @media (min-width:500px) {
-#gallery {
-height: 850px;
-}
+	#gallery {
+	height: 850px;
+	}
 .parametry{
 	text-align:center;
 	width:50%;
@@ -275,11 +295,12 @@ height: 850px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
+	}
 }
-}
+
 @media (min-width:600px) {
-#gallery {
-height: 950px;
+	#gallery {
+	height: 950px;
 }
 .parametry{
 	text-align:center;
@@ -299,12 +320,13 @@ height: 950px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
+	}
 }
-}
+
 @media (min-width:700px) {
-#gallery {
-height: 1100px;
-}
+	#gallery {
+	height: 1100px;
+	}
 .parametry{
 	text-align:center;
 	width:50%;
@@ -323,12 +345,13 @@ height: 1100px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
+	}
 }
-}
+
 @media (min-width:800px) {
-#gallery {
-height: 1320px;
-}
+	#gallery {
+	height: 1320px;
+	}
 .parametry{
 	text-align:center;
 	width:50%;
@@ -347,12 +370,13 @@ height: 1320px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
+	}
 }
-}
+
 @media (min-width:900px) {
-#gallery {
-height: 1520px;
-}
+	#gallery {
+	height: 1520px;
+	}
 .parametry{
 	text-align:center;
 	width:50%;
@@ -371,5 +395,5 @@ height: 1520px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
-}
+	}
 }
