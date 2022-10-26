@@ -371,17 +371,25 @@ height: 1520px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
-	}
+}
 }
 /*---------------------------------------------------------------------------*/
+#zbiorczy_spol{
+	width: 100%;
+	clear: both;
+}
+#pomocny_spol{
+	
+	clear: both;
+}
 #spolecznosc {
 	width: 75%;
 	margin: 1% 0 0 1%;
 	background-color: grey;
 	opacity:0.8;
+	float: left;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
-	display: inline-block;
 }
 #spolecznosc:hover {
 	background-color: lightgrey;
@@ -407,12 +415,7 @@ aside {
 	float:right;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
-}
-aside:hover{
-	width:20%;
-	float:right;
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+
 }
 aside img {
 	width:80%;
@@ -421,6 +424,7 @@ aside img {
 	border-radius:25%;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
+	clear:both;
 }
 aside img:hover {
 	width:100%;
@@ -436,9 +440,9 @@ time {
 	width: 20%;
 	border: 1px solid red;
 	background-color: lightgrey;
-	margin: -20% 2% 0% 5%;
+	margin: -18% 1.5% 0% 3%;
 	border-radius:15%;
-	padding:2%;
+	padding:1%;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5 ease;
 }
@@ -447,21 +451,13 @@ time:hover {
 	width: 22%;
 	border: 1px solid blue;
 	background-color: lightgrey;
-	margin: -20% 1% 0% -2%;
+	margin: -18% 1.5% 0% 3%;
 	border-radius:25%;
-	padding:2%;
+	padding:1%;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 }
-@media (max-width:650px) {
-	#wrapper {
-	margin: auto;
-	margin-top:0px;
-	min-width:250px;
-	max-width: 1000px;
-	background-color:lightgreen;
-	height:1800px;
-}
+@media (max-width:700px) {
 	#spolecznosc {
 	width: 98%;
 	margin: 1% 0 0 1%;
@@ -513,59 +509,6 @@ aside img:hover {
 	border: 1px solid red;
 }
 time {
-	float: left;
-	width: 100%;
-	border: 1px solid red;
-	background-color: lightgrey;
-	margin: 5% 2% 0% 5%;
-	border-radius:15%;
-	padding:2%;
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5 ease;
 	visibility:hidden;
 }
-footer{
-	visibility:hidden;
-	}
 }
-@media (max-width:600px) {
-	#wrapper {
-	margin: auto;
-	margin-top:0px;
-	min-width:250px;
-	max-width: 1000px;
-	background-color:lightgreen;
-	height:1860px;
-	}
-}
-@media (max-width:550px) {
-	#wrapper {
-	margin: auto;
-	margin-top:0px;
-	min-width:250px;
-	max-width: 1000px;
-	background-color:lightgreen;
-	height:1900px;
-	}
-}
-@media (max-width:530px) {
-	#wrapper {
-	margin: auto;
-	margin-top:0px;
-	min-width:250px;
-	max-width: 1000px;
-	background-color:lightgreen;
-	height:1970px;
-	}
-}
-@media (max-width:500px) {
-	#wrapper {
-	margin: auto;
-	margin-top:0px;
-	min-width:250px;
-	max-width: 1000px;
-	background-color:lightgreen;
-	height:1980px;
-}
-}
-
